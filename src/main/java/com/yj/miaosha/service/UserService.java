@@ -11,8 +11,8 @@ public class UserService {
     UserDao userDao;
 
     public User getById(int id){
-        return userDao.select(id);
+        User user = userDao.select(id);
+        return user;
     }
-
 
 }

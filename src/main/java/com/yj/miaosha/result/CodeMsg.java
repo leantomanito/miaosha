@@ -1,6 +1,8 @@
 package com.yj.miaosha.result;
 
-public class CodeMsg {
+import java.io.Serializable;
+
+public class CodeMsg{
     private int code;
     private String msg;
 

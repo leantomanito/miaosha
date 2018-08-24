@@ -1,10 +1,12 @@
 package com.yj.miaosha.entry;
 
-public class User {
-    private int id;
+import java.io.Serializable;
+
+public class User{
+    private Integer id;
     private String name;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
